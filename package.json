@@ -1,0 +1,34 @@
+{
+  "name": "web3-donation-dapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "compile-contracts": "run-s truffle-compile move-contracts",
+    "truffle-compile": "truffle compile --config truffle-config.cjs",
+    "move-contracts": "node ./helpers/MoveContracts",
+    "init": "node ./helpers/Init.js",
+    "ganache": "bash ./ganache/ganache.sh",
+    "test": "node ./contracts/tests/DonationDappTest.js",
+    "dapp": "node ./dapp/Dapp.js",
+    "mnemonic-manager": "node ./data/mnemonic/MnemonicManager.js"
+  },
+  "author": "StephenSTB",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/contract": "^4.6.4",
+    "bip39": "^3.0.4",
+    "crypto-js": "^4.1.1",
+    "ganache": "^7.5.0",
+    "hdkey": "^2.0.1",
+    "ipfs": "^0.65.0",
+    "lsb-release": "^0.1.0",
+    "multiformats": "^10.0.2",
+    "npm-run-all": "^4.1.5",
+    "prompt": "^1.3.0",
+    "prompt-sync": "^4.2.0",
+    "readline": "^1.3.0",
+    "web3": "^1.8.0"
+  }
+}

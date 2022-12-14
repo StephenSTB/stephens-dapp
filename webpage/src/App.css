@@ -1,0 +1,120 @@
+:root{
+  --green: #54c18a;
+  --teal: #44abc6;
+  --red: rgb(150, 0, 0)
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+#top-section{
+  border-bottom: solid 1px black;
+  height: 60px;
+  display: flex;
+  flex-direction:  row;
+  justify-content: space-between;
+}
+
+#main-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#connect-web3-button{
+  height: 40px;
+  width: 125px;
+  border-radius: 30px;
+  border: none;
+  background-color: var(--teal);
+  align-self: center;
+  margin-right: 100px;
+}
+
+#connect-web3-button:hover, #donation-button:hover{
+  cursor: pointer;
+}
+
+#donation-button{
+  height: 40px;
+  width: 125px;
+  border-radius: 30px;
+  border: none;
+  background-color: var(--green);
+  align-self: center;
+}
+
+#bottom-section{
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /*border: 1px solid black;*/
+  height: 60px;
+  width: 150px;
+}
+
+#error{
+  color: var(--red);
+  align-self: center;
+}
+
+.dapp-info-link{
+  text-decoration: none;
+  align-self: center;
+}
+
+#content-link{
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+
+/* Desktop */
+@media screen and (min-width: 900px) {
+
+  #image-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 520px;
+    width: 790px;
+    /*border: solid 1px black;*/
+  }
+  
+  #content-image{
+    height: 100%;
+  }
+
+}
+
+/*Mobile*/
+@media screen and (max-width: 600px) {
+  .App{
+    width: 100vw;
+    overflow: hidden;
+  }
+  #main-section{
+    width: 90vw;
+    align-self: center;
+  }
+
+  #image-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 320px;
+    width: 90vw;
+    /*border: solid 1px black;*/
+  }
+  
+  #content-image{
+    height: 100%;
+  }
+}
+
+
+

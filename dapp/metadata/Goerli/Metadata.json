@@ -1,0 +1,20 @@
+{
+    "dapp": "bafybeicey6wpw7be6rnnhs3ygyr2utblcjc7ilwsnbb5pud7gcass2udle",
+    "build": "bafybeigy6n5l2daigjwl3x7bdxxefahzhljhrw2na6aysz7nwwhbznrxuy",
+    "build_environment": {
+        "os": "Ubuntu 22.04.1 LTS",
+        "node": "v19.0.1"
+    },
+    "network": "Goerli",
+    "chainid": 5,
+    "contract": "0xDb2d3e2ce051a6a50AD808f2b71ADaC88cc71a55",
+    "distributor": "0x027ad9EB5ED758856C0BbeA3d08c8D80CD4eca7a",
+    "signature": {
+        "message": "bafybeicey6wpw7be6rnnhs3ygyr2utblcjc7ilwsnbb5pud7gcass2udle-bafybeigy6n5l2daigjwl3x7bdxxefahzhljhrw2na6aysz7nwwhbznrxuy-Goerli-5-Ubuntu 22.04.1 LTS-v19.0.1-0xDb2d3e2ce051a6a50AD808f2b71ADaC88cc71a55-0x027ad9EB5ED758856C0BbeA3d08c8D80CD4eca7a",
+        "messageHash": "0x1cdb2d03d7a59396922d60fa96755fbe6a72ae4d9d47d368b261b89e2274c7cb",
+        "v": "0x1c",
+        "r": "0x1d447f17f4029c2b1bf76e7beec40311518d4dfc819ef02977e6cd7b2ffc1588",
+        "s": "0x5faf95de13ea3d81d3b36b721fbdada07b81a535b5ac72f0f92b3babbbc52700",
+        "signature": "0x1d447f17f4029c2b1bf76e7beec40311518d4dfc819ef02977e6cd7b2ffc15885faf95de13ea3d81d3b36b721fbdada07b81a535b5ac72f0f92b3babbbc527001c"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "dapp": "bafybeicey6wpw7be6rnnhs3ygyr2utblcjc7ilwsnbb5pud7gcass2udle",
+    "build": "bafybeigy6n5l2daigjwl3x7bdxxefahzhljhrw2na6aysz7nwwhbznrxuy",
+    "build_environment": {
+        "os": "Ubuntu 22.04.1 LTS",
+        "node": "v19.0.1"
+    },
+    "network": "Ethereum",
+    "chainid": 1,
+    "contract": "0xDb2d3e2ce051a6a50AD808f2b71ADaC88cc71a55",
+    "distributor": "0x027ad9EB5ED758856C0BbeA3d08c8D80CD4eca7a",
+    "signature": {
+        "message": "bafybeicey6wpw7be6rnnhs3ygyr2utblcjc7ilwsnbb5pud7gcass2udle-bafybeigy6n5l2daigjwl3x7bdxxefahzhljhrw2na6aysz7nwwhbznrxuy-Ethereum-1-Ubuntu 22.04.1 LTS-v19.0.1-0xDb2d3e2ce051a6a50AD808f2b71ADaC88cc71a55-0x027ad9EB5ED758856C0BbeA3d08c8D80CD4eca7a",
+        "messageHash": "0xcdbd358757f720faacd63b5b4a2bd7ba57200628060b01ff5d9c237423aff516",
+        "v": "0x1c",
+        "r": "0x4f8897f0a4655709776128162fa56366e5c1fc07b0c32444c72a676e16c5c3ce",
+        "s": "0x52bc76ac49a544e08dc5b4246b5fef509e88dffb43a4cec7e76d51fcd723a6f5",
+        "signature": "0x4f8897f0a4655709776128162fa56366e5c1fc07b0c32444c72a676e16c5c3ce52bc76ac49a544e08dc5b4246b5fef509e88dffb43a4cec7e76d51fcd723a6f51c"
+    }
+}

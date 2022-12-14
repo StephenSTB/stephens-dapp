@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.00c5705f.css",
+    "main.js": "/static/js/main.88cc3fb8.js",
+    "static/js/787.98498dfe.chunk.js": "/static/js/787.98498dfe.chunk.js",
+    "static/media/StephenScapeETH2.png": "/static/media/StephenScapeETH2.d43e7488a437dfd93d39.png",
+    "static/media/StephenScapeETH3.png": "/static/media/StephenScapeETH3.284bb3cf37d4c7b9f6a5.png",
+    "static/media/StephenScapeETH.png": "/static/media/StephenScapeETH.67c61c6d4103ec793cda.png",
+    "index.html": "/index.html",
+    "main.00c5705f.css.map": "/static/css/main.00c5705f.css.map",
+    "main.88cc3fb8.js.map": "/static/js/main.88cc3fb8.js.map",
+    "787.98498dfe.chunk.js.map": "/static/js/787.98498dfe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00c5705f.css",
+    "static/js/main.88cc3fb8.js"
+  ]
+}
