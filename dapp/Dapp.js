@@ -97,8 +97,6 @@ const dapp = async () =>{
         }
     }
 
-    
-
     await initWallet();
 
     await initDonationDapp();
